@@ -3,8 +3,6 @@
 # good
 class Palindrom < ApplicationRecord
   include ActiveModel::Serializers::Xml
-  include ActiveModel::Model
-  include ActiveModel::Validations
   include PalindromsHelper
 
   attr_accessor :num, :check
